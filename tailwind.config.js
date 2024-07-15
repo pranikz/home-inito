@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      'inito-blue': '#1f94aa',
+    },
     extend: {},
   },
   plugins: [],
