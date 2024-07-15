@@ -5,10 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'inito-blue': '#1f94aa',
+    extend: {
+      colors: {
+        'inito-blue': '#1f94aa',
+        "inito-text": '#112D35',
+        'inito-mobile': '#c4f2ff'
+      },
+      backgroundImage: {
+        'main-hero-bg': "url('https://cdn.inito.com/inito_website/v2_main_hero_background.png')",
+      },
+      fontFamily: {
+        montserrat: ['"Montserrat"', 'sans-serif'],
+      }
     },
-    extend: {},
   },
   plugins: [],
 }

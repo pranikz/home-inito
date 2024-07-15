@@ -34,7 +34,7 @@ export default function index() {
 
   return (
     <header className="bg-white">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex max-w-6xl items-center justify-between p-6 lg:px-8">
         <button
           type="button"
           onClick={() => setMobileMenuOpen(true)}
@@ -55,12 +55,12 @@ export default function index() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 lg:items-center">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+            <a key={item.name} href={item.href} className="text-base  font-semibold leading-5 text-inito-text">
               {item.name}
             </a>
           ))}
-          <a href="#" className="px-8 bg-inito-blue py-2 rounded-full bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
-            Try Inito <span aria-hidden="true">&rarr;</span>
+          <a href="#" className="px-8 bg-inito-blue text-white py-2 rounded-full text-base text-bold hover:shadow-xl transition duration-200">
+            Try Inito
           </a>
         </div>
       </nav>
