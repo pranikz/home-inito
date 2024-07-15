@@ -6,7 +6,7 @@ const index = () => {
         <div className='bg-inito-mobile lg:bg-main-hero-bg md:bg-cover md:bg-center md:pl-4 lg:-mt-32 '>
             <div className='mx-auto flex  lg:max-w-6xl items-center justify-between lg:p-6 lg:px-8'>
                 <div className='flex-col lg:flex min-w-full md:h-screen relative'>
-                    <div className=' mx-5'>
+                    <div className=' mx-5 lg:mx-0'>
                         <div className='flex items-center mt-10 md:mt-52 '>
                             <div className='flex items-center'>
                                 {stars.map((_, index) => (
@@ -33,11 +33,11 @@ const index = () => {
                     <div className='md:hidden block -mb-14'>
                         <img class="small-view" src="https://cdn.inito.com/inito_website/v2_main_hero_mobile.png" />
                     </div>
-                   <div>
+                    <div>
                         <div className='mt-14 -mb-6 w-full lg:hidden block  flex justify-center  '>
                             <a href="#" class=" px-16 bg-inito-blue text-white py-3 rounded-full text-base text-bold hover:shadow-xl transition duration-200">How does inito work?</a>
                         </div>
-                   </div>
+                    </div>
                 </div>
             </div>
         </div>
