@@ -48,8 +48,8 @@ export default function index() {
           <img alt="inito-logo" src="https://dqxth8lmt6m4r.cloudfront.net/assets/v1/Logo-1b7ad53fafc81e97cf23af4f0ffae8d8961ee793cd3d982c132b3acfa8b75bdd.svg" />
         </a>
         <div className="flex lg:hidden">
-          <button href="#" className="px-8 bg-inito-blue py-2 rounded-full bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
-            Try Inito <span aria-hidden="true">&rarr;</span>
+          <button href="#" className="px-8 bg-inito-blue  text-white py-2 rounded-full  hover:shadow-xl transition duration-200">
+            Try Inito
           </button>
 
         </div>
