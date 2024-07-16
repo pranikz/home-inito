@@ -75,7 +75,7 @@ const index = () => {
                 </div>
             </div>
             <div className=' mt-10 mx-10  lg:hidden items-center  lg:p-6 lg:px-8 pb-10'>
-                <span className='text-md text-gray-400 font-bold mx-auto flex justify-center  '>AS SEEN ON</span>
+                <span className='text-md text-gray-400 font-bold mx-auto flex justify-center mb-3  '>AS SEEN ON</span>
                 <div className='flex-row justify-center'>
                     <div>
                         <div className='flex justify-center'>
