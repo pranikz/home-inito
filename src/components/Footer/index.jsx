@@ -147,7 +147,8 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 flex-col items-center md:flex md:items-center md:justify-between lg:mt-24">
+        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 
+          md:flex md:items-center md:justify-between lg:mt-24">
           <img src='https://dqxth8lmt6m4r.cloudfront.net/assets/v1/Logo%20Inito%20Small-469e31eca89154d7507eaa91c3dd05b75cc908346860f04e2729a9fca8094e2b.svg'></img>
 
           <p className="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
