@@ -40,7 +40,9 @@ export default function index() {
           onClick={() => setMobileMenuOpen(true)}
           className="-m-2.5  items-center justify-center rounded-md p-2.5 text-gray-700 flex lg:hidden"
         >
-          {!mobileMenuOpen && <><span className="sr-only">Open main menu</span>
+          {!mobileMenuOpen && 
+          <>
+            <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="h-6 w-6" /></>}
         </button>
         <a href="#" className="-m-1.5 p-1.5">

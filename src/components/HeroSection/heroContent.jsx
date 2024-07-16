@@ -2,8 +2,8 @@ import React from 'react'
 
 const heroContent = () => {
     return (
-        <div className='mx-auto flex  lg:max-w-6xl items-center justify-between lg:p-6 lg:px-8 flex-col pb-10'>
-            <div className='text-2xl md:text-4xl font-bold max-w-sm md:max-w-xl text-center px-10 md:px-0 leading-relaxed'>
+        <div className='mx-auto flex  lg:max-w-6xl items-center justify-between lg:p-6 lg:px-8 flex-col pb-10 bg-[#f2f8fa]  md:bg-white'>
+            <div className='text-2xl md:text-4xl font-bold max-w-sm md:max-w-xl text-center px-10 md:px-0 leading-relaxed mt-10'>
                 The
                 <span className='mx-1 md:mx-2 relative'>
                     only

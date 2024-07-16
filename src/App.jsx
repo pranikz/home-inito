@@ -7,13 +7,15 @@ import Herosection from './components/HeroSection/index'
 function App() {
 
   return (
-    <div className='flex flex-col h-screen overflow-hidden font-montserrat'>
+    <div className='flex flex-col  overflow-hidden font-montserrat'>
       <Header />
-      <main class="flex-1 overflow-y-scroll">
+      <main class="flex-1 overflow-y-scroll ">
         <Herosection />
+        
       </main>
+      <Footer />
 
-      {/* <Footer /> */}
+     
 
     </div>
   )
