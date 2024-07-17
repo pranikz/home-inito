@@ -22,7 +22,7 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
             <div className="">
                 {type === 'one' ? (
                     <div className='w-full flex flex-col md:flex-row '>
-                        <div className='p-4 md:w-1/2 '>
+                        <div className='p-4 md:p-10 md:w-1/2 '>
                             <div className='text-xl md:text-4xl font-semibold mt-3'>
                                 {title}
                             </div>
@@ -51,8 +51,8 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
                                     <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-10 md:top-[90px] left-9 md:left-[120px] md:scale-150' />
                                 </div>) : (<img src={image} alt="image" className='  object-cover ' />)}
                             </div>
-                            <div className='p-4 md:w-1/2  '>
-                                <div className='text-4xl font-semibold mt-3'>
+                            <div className='p-4 md:p-10 md:w-1/2   '>
+                                <div className='text-4xl font-semibold mt-3  '>
                                     {title}
                                 </div>
                                 <div className='mt-5'>
