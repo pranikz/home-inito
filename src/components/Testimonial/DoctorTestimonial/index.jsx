@@ -56,6 +56,7 @@ Every woman is unique, especially with a condition like PCOS or Thyroid which ca
                     />
                     <Card type={'two'}
                         button={true}
+                        scrollimage={true}
                         image={"https://res.cloudinary.com/dg6y2dtpl/image/upload/v1721230635/Mask_group_amcvqx.jpg"}
                         title={"Inito tracks everything so you don’t have to"}
                         content={`

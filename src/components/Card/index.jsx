@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-const index = ({ type, image, title, content, button }) => {
+const index = ({ type, image, title, content, button, scrollimage }) => {
     const imageArray = [
+        { step: 0, image: 'https://res.cloudinary.com/dg6y2dtpl/image/upload/v1721235175/Group_980_rtetlj.png' },
         { step: 1, image: "https://res.cloudinary.com/dg6y2dtpl/image/upload/v1721232636/Group_981_sldwio.png" },
         { step: 2, image: "https://res.cloudinary.com/dg6y2dtpl/image/upload/v1721232638/Group_978_ztgnlj.png" },
         { step: 3, image: "https://res.cloudinary.com/dg6y2dtpl/image/upload/v1721232640/Group_979_jzyzh2.png" }
     ]
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageArray.length);
+        }, 1000);
+        return () => clearInterval(timer);
+    }, [imageArray]);
+
     return (
         <div className="overflow-hidden rounded-lg bg-white shadow w-full max-w-xs md:max-w-5xl mb-5 mx-auto">
             <div className="">
@@ -25,13 +36,20 @@ const index = ({ type, image, title, content, button }) => {
 
                         <div className='md:w-1/2 md:p-16'>
                             <img src={image} alt="image" className='w-full h-full' />
+
                         </div>
+
                     </div>
                 ) : (
                     <div className='w-full flex flex-col md:flex-row '>
                         <div className='w-full flex flex-col md:flex-row '>
                             <div className='md:w-1/2 md:p-16 flex justify-center'>
-                                <img src={image} alt="image" className='  object-cover' />
+                                {scrollimage ? (<div className='relative'>
+
+                                    <img src={image} alt="image" className='w-full h-full relative object-cover scale-105 ' >
+                                    </img>
+                                    <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-20 left-[70px] scale-150' />
+                                </div>) : (<img src={image} alt="image" className='  object-cover ' />)}
                             </div>
                             <div className='p-4 md:w-1/2 md:p-16 '>
                                 <div className='text-4xl font-semibold mt-3'>
