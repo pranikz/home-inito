@@ -9,6 +9,7 @@ const index = () => {
 
     const settings = {
         dots: true,
+        arrows: false,
     };
     return (
         <div className=" m-0 ml-auto">
