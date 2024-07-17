@@ -4,6 +4,7 @@ import Header from './components/Header/index'
 import Footer from './components/Footer/index'
 import Herosection from './components/HeroSection/index'
 import DoctorTestimonial from './components/Testimonial/DoctorTestimonial/index'
+import FAQ from './components/FAQ/index'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <main class="flex-1 overflow-y-scroll ">
         <Herosection />
         <DoctorTestimonial />
+        <FAQ />
 
 
       </main>
