@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '../../Card'
-import TestimonialSlider from '../../Testimonial/TestimonialSlider'
 
 
 const index = () => {
@@ -71,7 +70,7 @@ const index = () => {
 
                 </div>
 
-                <TestimonialSlider />
+               
 
             </div>
         </div>

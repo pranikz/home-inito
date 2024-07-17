@@ -1,24 +1,33 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 const index = () => {
 
 
-    const TestimonialData = [{ name: 'test1' }, { name: 'test2' }, { name: 'test3' }, { name: 'test4' }]
+    const settings = {
+        dots: true,
+    };
     return (
-        <div className='w-full'>
-            <Carousel showArrows={false} useKeyboardArrows={true} >
-                {TestimonialData.map((data, index) => (
-                    <div className="">
-                        <div key={index} >
-                            {data.name}
-                        </div>
-                    </div>
-                ))}
-            </Carousel>
+        <div className=" m-0 ml-auto">
+            <Slider {...settings}>
+                <div>
+                    <img src="http://placehold.co/600x400" />
+                </div>
+                <div>
+                    <img src="http://placehold.co/600x400" />
+                </div>
+                <div>
+                    <img src="http://placehold.co/600x400" />
+                </div>
+                <div>
+                    <img src="http://placehold.co/600x400" />
+                </div>
+            </Slider>
         </div>
-    )
+    );
 }
 
 export default index

@@ -13,7 +13,7 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageArray.length);
-        }, 1000);
+        }, 2000);
         return () => clearInterval(timer);
     }, [imageArray]);
 
@@ -22,7 +22,7 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
             <div className="">
                 {type === 'one' ? (
                     <div className='w-full flex flex-col md:flex-row '>
-                        <div className='p-4 md:w-1/2 md:p-16'>
+                        <div className='p-4 md:w-1/2 '>
                             <div className='text-xl md:text-4xl font-semibold mt-3'>
                                 {title}
                             </div>
@@ -34,7 +34,7 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
                             </div>
                         </div>
 
-                        <div className='md:w-1/2 md:p-16'>
+                        <div className='md:w-1/2 '>
                             <img src={image} alt="image" className='w-full h-full' />
 
                         </div>
@@ -43,15 +43,15 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
                 ) : (
                     <div className='w-full flex flex-col md:flex-row '>
                         <div className='w-full flex flex-col md:flex-row '>
-                            <div className='md:w-1/2 md:p-16 flex justify-center'>
+                            <div className='md:w-1/2  flex justify-center'>
                                 {scrollimage ? (<div className='relative'>
 
                                     <img src={image} alt="image" className='w-full h-full relative object-cover scale-105 ' >
                                     </img>
-                                    <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-20 left-[70px] scale-150' />
+                                    <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-10 md:top-[90px] left-9 md:left-[120px] md:scale-150' />
                                 </div>) : (<img src={image} alt="image" className='  object-cover ' />)}
                             </div>
-                            <div className='p-4 md:w-1/2 md:p-16 '>
+                            <div className='p-4 md:w-1/2  '>
                                 <div className='text-4xl font-semibold mt-3'>
                                     {title}
                                 </div>
