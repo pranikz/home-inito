@@ -11,6 +11,7 @@ export default {
         "inito-text": '#112D35',
         'inito-mobile': '#c4f2ff',
         'inito-footer': '#112d35',
+        'inito-light-blue': '#e1f4fa',
       },
       backgroundImage: {
         'main-hero-bg': "url('https://cdn.inito.com/inito_website/v2_main_hero_background.png')",

@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/index'
 import Footer from './components/Footer/index'
 import Herosection from './components/HeroSection/index'
+import DoctorTestimonial from './components/Testimonial/DoctorTestimonial/index'
 
 function App() {
 
@@ -11,11 +12,13 @@ function App() {
       <Header />
       <main class="flex-1 overflow-y-scroll ">
         <Herosection />
-        
+        <DoctorTestimonial />
+
+
       </main>
       <Footer />
 
-     
+
 
     </div>
   )
