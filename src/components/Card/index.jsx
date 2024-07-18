@@ -52,7 +52,7 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
                                 </div>) : (<img src={image} alt="image" className='  object-cover ' />)}
                             </div>
                             <div className='p-4 md:p-10 md:w-1/2   '>
-                                <div className='text-4xl font-semibold mt-3  '>
+                                    <div className='text-xl md:text-4xl font-semibold mt-3  '>
                                     {title}
                                 </div>
                                 <div className='mt-5'>

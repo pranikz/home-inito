@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroContent from './heroContent'
+import FeatureContent from './FeatureContent';
 
 
 const index = () => {
@@ -105,6 +106,7 @@ const index = () => {
                 </div>
             </div>
             <HeroContent />
+            <FeatureContent />
         </>
     )
 }

@@ -10,9 +10,11 @@ import TestimonialSlider from './components/Testimonial/TestimonialSlider/index'
 function App() {
 
   return (
+    
     <div className='flex flex-col  overflow-hidden font-montserrat'>
       <Header />
       <main class="flex-1  ">
+       
         <Herosection />
         <DoctorTestimonial />
         <TestimonialSlider />

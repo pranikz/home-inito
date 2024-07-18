@@ -33,7 +33,7 @@ export default function index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
+    <header className="bg-white z-10">
       <nav aria-label="Global" className="mx-auto flex max-w-6xl items-center justify-between p-6 lg:px-8">
         <button
           type="button"
