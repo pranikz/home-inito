@@ -23,6 +23,11 @@ const index = () => {
                         <div className='text-gray-400 text-sm mt-5 hidden md:block'>
                             * The Inito Fertility Monitor currently supports iPhone 7 and up. Android phones are not supported at the moment.
                         </div>
+                        <div className=' md:flex justify-end mt-5 hidden '>
+                            <a target="_blank" href="https://apps.apple.com/us/app/inito-fertility-ovulation/id1183799668">
+                                <img className='w-32 ' src="https://cdn.inito.com/inito_website/download_on_app_store.png"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
