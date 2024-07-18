@@ -54,4 +54,4 @@ pnpm dev
 - This project was created by [Pratyush Mahapatra](https://www.pranikz.dev/)  with ❤️.
 - Special thanks to Inito for providing the assignment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.

@@ -15,7 +15,6 @@ function App() {
     <div className='flex flex-col  overflow-hidden font-montserrat'>
       <Header />
       <main class="flex-1  ">
-       
         <Herosection />
         <DoctorTestimonial />
         <Stepcomponent/>
