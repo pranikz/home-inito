@@ -44,6 +44,10 @@ pnpm dev
 
 ## Screenshots :camera:
 
+![image](https://github.com/user-attachments/assets/663c973b-c6cd-4d1a-aae9-a9dc6e216da0)
+![image](https://github.com/user-attachments/assets/0f48b78c-8676-466c-921a-f666c23d153f)
+
+
 
 ## Credits :clap:
 
