@@ -36,7 +36,7 @@ const FeatureContent = () => {
 
                                 If you have irregular cycles, actual data is necessary to know exactly when you ovulate, and when is the best time to try to conceive.
                             </div>
-                            <button href="#" className="px-8 mt-5 bg-inito-blue  text-white py-2 rounded-full  hover:shadow-xl transition duration-200">
+                            <button href="#" className="px-8 mt-5 bg-inito-blue  text-white py-2 md:py-3 rounded-full  hover:shadow-xl transition duration-200">
                                 Get the Inito Kit
                             </button>
 

@@ -6,6 +6,7 @@ import Herosection from './components/HeroSection/index'
 import DoctorTestimonial from './components/Testimonial/DoctorTestimonial/index'
 import FAQ from './components/FAQ/index'
 import TestimonialSlider from './components/Testimonial/TestimonialSlider/index'
+import Stepcomponent from './components/StepComponent/index'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
        
         <Herosection />
         <DoctorTestimonial />
+        <Stepcomponent/>
         <TestimonialSlider />
         <FAQ />
 

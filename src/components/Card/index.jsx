@@ -48,18 +48,18 @@ const index = ({ type, image, title, content, button, scrollimage }) => {
 
                                     <img src={image} alt="image" className='w-full h-full relative object-cover scale-105 ' >
                                     </img>
-                                    <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-10 md:top-[90px] left-9 md:left-[120px] md:scale-150' />
+                                    <img src={imageArray[currentImageIndex].image} alt="image" className=' transition ease-in-out absolute z-10 top-10 md:top-[92px] left-9 md:left-[128px] md:scale-150' />
                                 </div>) : (<img src={image} alt="image" className='  object-cover ' />)}
                             </div>
                             <div className='p-4 md:p-10 md:w-1/2   '>
-                                    <div className='text-xl md:text-4xl font-semibold mt-3  '>
+                                <div className='text-xl md:text-4xl font-semibold mt-3  '>
                                     {title}
                                 </div>
                                 <div className='mt-5'>
                                     <div
                                         className='font-medium' dangerouslySetInnerHTML={{ __html: content }}
                                     />
-                                    {button && <button href="#" className="px-8 mt-5 bg-inito-blue  text-white py-2 rounded-full  hover:shadow-xl transition duration-200">
+                                    {button && <button href="#" className="px-8 mt-5 bg-inito-blue  text-white py-2 md:py-3 rounded-full  hover:shadow-xl transition duration-200">
                                         Get the Inito Kit
                                     </button>}
 
