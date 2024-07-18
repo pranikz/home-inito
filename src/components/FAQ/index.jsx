@@ -53,7 +53,7 @@ const secondColumn = faqs.slice(4);
 
 export default function index() {
   return (
-    <div className="bg-white mx-auto  flex  lg:max-w-6xl items-center justify-between lg:p-6 lg:px-8 flex-col ">
+    <div className="bg-white mx-auto  flex  md:max-w-6xl w-full items-center justify-between lg:p-6 lg:px-8 flex-col ">
       <div className='text-3xl font-semibold text-center mt-5 '>
         Your top  <span className='relative'>
           questions,
@@ -63,9 +63,9 @@ export default function index() {
         </span><br /> Answered
       </div>
       <div className="mx-auto  lg:px-8  w-full">
-        <div className="mx-auto max-w-xs md:max-w-4xl divide-y divide-gray-900/10">
+        <div className="mx-auto max-w-xs md:max-w-5xl divide-y divide-gray-900/10">
 
-          <dl className="mt-10   grid md:grid-cols-2 gap-3   ">
+          <dl className="mt-10   grid md:grid-cols-2 gap-3    ">
             <div> {firstColumn.map((faq) => (
               <Disclosure key={firstColumn.question} as="div" className=" bg-[#f7f7fe] p-4 grow-0 mb-3  rounded-lg">
                 <dt>
