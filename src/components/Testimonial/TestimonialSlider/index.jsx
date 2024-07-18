@@ -12,10 +12,10 @@ const index = () => {
     };
     return (
         <div className='mx-auto  lg:max-w-6xl items-center justify-between lg:p-6 lg:px-8 flex-col pb-10'>
-            <div className=" m-0 ml-auto ">
+            <div className=" m-0 ml-auto mt-10 md:mt-0  ">
                 <Slider {...settings}>
                     <div>
-                        <div className='rounded-lg w-full p-6 max-w-6xl shadow-sm h-40  bg-[#f7f7fe]'>
+                        <div className=' mx-auto rounded-lg w-full p-6 max-w-xs md:max-w-6xl shadow-sm md:h-40  bg-[#f7f7fe]'>
                             <div className='flex items-center mb-2'>
                                 {stars.map((_, index) => (
                                     <img
@@ -35,38 +35,12 @@ const index = () => {
                             PdG increased. It’s so great to have a little more insight into what is going on!
 
                         </div>
-                        <div className='p-6 text-gray-500'>
-                            MJ
-                        </div>
-                    </div>
-
-                    <div>
-                        <div className='rounded-lg w-full p-6 max-w-6xl shadow-sm h-40  bg-[#f7f7fe]'>
-                            <div className='flex items-center mb-2'>
-                                {stars.map((_, index) => (
-                                    <img
-                                        key={index}
-                                        src="https://cdn.inito.com/inito_website/star.png"
-                                        alt="Star"
-                                        className='w-4 h-4 mr-2'
-                                    />
-                                ))}
-                            </div>
-
-                            I have PCOS and have been on letrozole and using LH tests to time intercourse.
-                            I was hesitant to buy this because there are so many different things
-                            but I liked the added hormones it tracks. I just used it with my last cycle and
-                            it was so great! Showed me my estrogen rising so I knew I was in my fertile window
-                            two days before my LH rise. I just got the “confirmed ovulation” because my
-                            PdG increased. It’s so great to have a little more insight into what is going on!
-
-                        </div>
-                        <div className='p-6 text-gray-500'>
+                        <div className='p-6 text-gray-500 mx-auto max-w-xs md:max-w-6xl'>
                             MJ
                         </div>
                     </div>
                     <div>
-                        <div className='rounded-lg w-full p-6 max-w-6xl shadow-sm h-40  bg-[#f7f7fe]'>
+                        <div className=' mx-auto rounded-lg w-full p-6 max-w-xs md:max-w-6xl shadow-sm md:h-40  bg-[#f7f7fe]'>
                             <div className='flex items-center mb-2'>
                                 {stars.map((_, index) => (
                                     <img
@@ -86,12 +60,12 @@ const index = () => {
                             PdG increased. It’s so great to have a little more insight into what is going on!
 
                         </div>
-                        <div className='p-6 text-gray-500'>
+                        <div className='p-6 text-gray-500 mx-auto max-w-xs md:max-w-6xl'>
                             MJ
                         </div>
                     </div>
                     <div>
-                        <div className='rounded-lg w-full p-6 max-w-6xl shadow-sm h-40  bg-[#f7f7fe]'>
+                        <div className=' mx-auto rounded-lg w-full p-6 max-w-xs md:max-w-6xl shadow-sm md:h-40  bg-[#f7f7fe]'>
                             <div className='flex items-center mb-2'>
                                 {stars.map((_, index) => (
                                     <img
@@ -111,7 +85,32 @@ const index = () => {
                             PdG increased. It’s so great to have a little more insight into what is going on!
 
                         </div>
-                        <div className='p-6 text-gray-500'>
+                        <div className='p-6 text-gray-500 mx-auto max-w-xs md:max-w-6xl'>
+                            MJ
+                        </div>
+                    </div>
+                    <div>
+                        <div className=' mx-auto rounded-lg w-full p-6 max-w-xs md:max-w-6xl shadow-sm md:h-40  bg-[#f7f7fe]'>
+                            <div className='flex items-center mb-2'>
+                                {stars.map((_, index) => (
+                                    <img
+                                        key={index}
+                                        src="https://cdn.inito.com/inito_website/star.png"
+                                        alt="Star"
+                                        className='w-4 h-4 mr-2'
+                                    />
+                                ))}
+                            </div>
+
+                            I have PCOS and have been on letrozole and using LH tests to time intercourse.
+                            I was hesitant to buy this because there are so many different things
+                            but I liked the added hormones it tracks. I just used it with my last cycle and
+                            it was so great! Showed me my estrogen rising so I knew I was in my fertile window
+                            two days before my LH rise. I just got the “confirmed ovulation” because my
+                            PdG increased. It’s so great to have a little more insight into what is going on!
+
+                        </div>
+                        <div className='p-6 text-gray-500 mx-auto max-w-xs md:max-w-6xl'>
                             MJ
                         </div>
                     </div>
